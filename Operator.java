@@ -1,0 +1,13 @@
+public class Operator{
+public static void main(String[]args){
+int a=20;
+int b=10;
+int temp=a;
+a=b;
+b=temp;
+System.out.println(a);
+System.out.println(b);
+boolean check=a<b;
+System.out.println(check);
+}
+}
